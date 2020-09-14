@@ -1,20 +1,6 @@
 <template>
   <div class="inline" v-if="user">
-    <a href="#" class="user-pop" v-on:mouseover="hover" v-on:mouseout="hoverOut">
-      {{ main }}
-    </a>
-    <div class="user-popover" v-if="showPopup" transition="fade" v-on:mouseover="hoverInfo"
-         v-on:mouseout="hoverOutInfo">
-      <div class="user-popover--img" v-bind:style="{ backgroundImage: 'url('+user.profile.profile_image+')' }">
-        <h3 class="img-inner">{{ user.name }}</h3>
-      </div>
-      <div class="col-md-12">
-        <p>{{ user.username }}</p>
-      </div>
-      <div class="col-md-12" v-if="user.email">
-        <p>{{ user.email }}</p>
-      </div>
-    </div>
+    <h1>I AM A VUE COMPONENT</h1>
   </div>
 </template>
 
