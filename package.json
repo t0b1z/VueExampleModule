@@ -1,6 +1,6 @@
 {
-    "name": "preview-component",
-    "version": "1.0.12",
+    "name": "t0b1z-preview-component",
+    "version": "1.0.2",
     "main": "src/index.js",
     "scripts": {
         "dev": "node_modules/webpack/bin/webpack.js --progress --config build/webpack.config.js",

@@ -1,6 +1,6 @@
 <template>
   <div class="inline" v-if="user">
-    <h1>I AM A VUE COMPONENT</h1>
+    <h1>I AM A VUE COMPONENT lolol</h1>
   </div>
 </template>
 
